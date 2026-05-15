@@ -1,0 +1,79 @@
+# ==========================================
+# 1. uv / Python 虚拟环境与依赖
+# ==========================================
+# uv 默认创建的虚拟环境目录
+.venv/
+# 传统的虚拟环境目录名（以防万一）
+venv/
+ENV/
+env/
+
+/csv_output/
+/test_mod/
+/.claude/
+mod_classification.csv
+
+# uv 的缓存目录（如果改变了默认缓存路径）
+.uv/
+
+# 编译生成的 Python 字节码，避免跨平台或版本冲突
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# 2. Windows 系统特有临时文件
+# ==========================================
+# 文件夹自定义图标和缩略图数据库
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# 文件夹视图设置（Windows 资源管理器自动生成）
+Desktop.ini
+
+# 快捷方式文件
+*.lnk
+
+# ==========================================
+# 3. 常见 IDE / 编辑器配置
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+
+# ==========================================
+# 4. 打包与分发 (如果你的项目会打包)
+# ==========================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# 5. 课程实验/运行日志与本地配置
+# ==========================================
+*.log
+.env
+.local
