@@ -13,6 +13,7 @@ env/
 /.claude/
 mod_classification.csv
 /mods/
+/output/
 
 # uv 的缓存目录（如果改变了默认缓存路径）
 .uv/
